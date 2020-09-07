@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.body{
+    background-color: slategray;
+}
+.header{
+    background-image: url(./images/fog.jpg);
+    background-size: cover;
+    background-position: center top;
+    height: 400px;
+    text-align: center;
+    color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    font-size: 40px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+.header h1{
+    font-size: 60px;
+    margin-top: 100px;
+}
+.main{
+    padding-top: 10px;
+}
+.main h2{
+    text-align: center;
+    font-size: 35px;
+}
+.main img{
+    width: 400px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.wrapper img{
+    border-radius: 10px;
+}
+.container{
+    display: inline-block;
+    width: 400px;
+    padding-left: 50px;
+    font-size: 17px;
+}

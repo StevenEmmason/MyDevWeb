@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.body{
+    background-color: slategray;
+}
+.header{
+    background-image: url(./images/lost.jpg);
+    background-size: cover;
+    background-position: center top;
+    height: 400px;
+    text-align: center;
+    color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    font-size: 40px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+.header h1{
+    font-size: 60px;
+    margin-top: 100px;
+}
+.main{
+    padding-top: 20px;
+}
+.main h2{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.wrapper{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+}
+.containerA{
+    padding-bottom: 30px;
+    width: 500px;
+}
+.containerA h1{
+    font-size: 40px;
+}
+.containerB{
+    padding-bottom: 30px;
+    width: 500px;
+}
+.containerB h1{
+    font-size: 40px;
+}
+.containerC{
+    width: 500px;
+}
+.containerC h1{
+    font-size: 40px;
+}
+.image{
+    text-align: center;
+    padding-top: 10px;
+}
+.image img{
+    width: 400px;
+    border-radius: 10px;
+}
